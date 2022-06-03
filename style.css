@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 550px;
+    text-align: center;
+    color: white;
+    margin: 80px auto;
+    border-radius: 20px;
+    background-color: black;
+    border: solid 5px black;
+}
+.header_p1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+.header_p2{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
