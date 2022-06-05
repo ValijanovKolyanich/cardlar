@@ -4,7 +4,50 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+.nav_imgages{
+    max-width: 50px;
+    width: 100%;
+}
+    .nav_imgages img{
+    width: 100%;
+}
+.nav_button button{
+    width: 200px;
+    height: 50px;
+    transition: all 1s;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 50px;
+}
+.nav_button button:hover{
+    width: 250px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+}
+.nav_button button:hover{
+  transform: scale(0.9);
+}
+.avatar_wrap{
+    display: flex;
+    align-items: center;
+}
+.cl_descript{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
 .header{
     width: 400px;
     text-align: center;
@@ -21,11 +64,13 @@
     transform: scale(0.9);
 }
 .header_p1{
+    padding: 0 20px;
     font-size: 30px;
     font-weight: 800;
     margin-top: 40px;
 }
 .header_p2{
+    padding: 0 20px;
     font-size: 20px;
     font-weight: 800;
     margin-top: 20px;
@@ -36,4 +81,46 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+.foooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+}
+.href a{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.logos{
+    width: 400px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+.order button{
+    width: 200px;
+    height: 50px;
+    color: red;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: yellow;
+}
+.order button:hover{ 
+    color: red;
+    transform: scale(0.9);
+    background-color: purple;
+}
+.img img{
+    width: 100px;
+}
